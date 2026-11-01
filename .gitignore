@@ -1,0 +1,38 @@
+# Sensitive files & Environment variables
+.env
+.env.*
+*.env
+db.py
+test_db.py
+
+# Python virtual environments & cache
+venv/
+.venv*/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large files & local models
+backend/model/
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Static & templates
+backend/static/
+backend/templates/
+
+# Frontend
+frontend_dta/
+node_modules/
+dist/
+.vite/
+
+# System / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
